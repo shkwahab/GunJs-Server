@@ -3,7 +3,7 @@ const Gun = require('gun')
 const cors = require('cors')
 
 const app = express()
-const port = 3030
+const port = 8765
 
 app.use(cors())
 
