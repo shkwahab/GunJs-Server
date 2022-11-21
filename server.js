@@ -3,7 +3,7 @@ import Gun from 'gun'
 import cors from 'cors'
 
 const app = express()
-const port =  9000
+const port = process.env.PORT || 9000
 
 app.use(cors())
 
