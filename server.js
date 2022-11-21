@@ -1,4 +1,4 @@
-import express from 'express'
+const express = require('express');
 import Gun from 'gun'
 import cors from 'cors'
 
