@@ -1,6 +1,6 @@
 const express = require('express');
-import Gun from 'gun'
-import cors from 'cors'
+const Gun = require('gun')
+const cors = require('cors')
 
 const app = express()
 const port = 3030
