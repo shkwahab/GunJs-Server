@@ -3,7 +3,7 @@ const Gun = require('gun')
 const cors = require('cors')
 
 const app = express()
-const port = 8765
+const port = process.env.PORT || 9000
 
 app.use(cors())
 
